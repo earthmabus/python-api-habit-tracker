@@ -43,7 +43,7 @@ def create_graph(graph_id, graph_name, unit, type, color):
 
 def post_pixel(graph_id, date_str, quantity):
     '''posts a pixel on the graph'''
-    num_retries = 3
+    num_retries = 7
     except_to_return: BaseException = None
     while num_retries > 0:
         try:
